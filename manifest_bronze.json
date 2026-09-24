@@ -2,11 +2,6 @@
   "gerado_em": "2026-09-22",
   "fonte": "SES/SUSEP - BaseCompleta.zip (segmento Capitalizacao)",
   "arquivos": {
-    "SES_Balanco.csv": {
-      "linhas": 23355797,
-      "delimitador": ";",
-      "encoding": "ASCII"
-    },
     "Ses_prov.csv": {
       "linhas": 57964,
       "delimitador": ";",
@@ -24,11 +19,6 @@
     },
     "Ses_cias.csv": {
       "linhas": 769,
-      "delimitador": ";",
-      "encoding": "ISO-8859-1"
-    },
-    "Ses_campos.csv": {
-      "linhas": 2036,
       "delimitador": ";",
       "encoding": "ISO-8859-1"
     }
