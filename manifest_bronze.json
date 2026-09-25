@@ -20,7 +20,7 @@
     "Ses_cias.csv": {
       "linhas": 769,
       "delimitador": ";",
-      "encoding": "ISO-8859-1"
+      "encoding": "windows-1252"
     }
   }
 }
