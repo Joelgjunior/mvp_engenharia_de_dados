@@ -418,6 +418,8 @@ No Databricks, PK e FK são informativas: documentam o modelo e desenham as rela
 
 Organizei o pipeline na arquitetura Medallion (Bronze → Silver → Gold), em 5 notebooks, um por etapa. Todos ficam num Git Folder do Databricks ligado ao repositório do GitHub, e cada etapa foi commitada ao terminar.
 
+Importante: Os notebooks no GitHub estão sem as saídas, porque o Git Folder do Databricks não versiona outputs de .ipynb por padrão. As saídas de cada etapa estão nos screenshots deste README.
+
 ```mermaid
 flowchart LR
     A[SUSEP/SES<br>4 CSVs] -->|upload| B[(Bronze<br>Managed Volume)]
