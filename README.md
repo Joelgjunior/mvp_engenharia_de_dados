@@ -504,7 +504,7 @@ Também verifiquei a consistência entre colunas e arquivos, sem nenhum problema
 
 ### Acurácia
 
-Todas as medidas deveriam ser maiores ou iguais a zero. Verifiquei os valores negativos em cada uma, na base inteira e no período analisado.
+Verifiquei os valores negativos de cada medida, na base inteira e no período analisado. Em prêmios e receitas, que são líquidos de devoluções e cancelamentos, o negativo é possível. Em pagamentos e contagens, não.
 
 | Arquivo | Coluna | O que encontrei | Tratamento |
 |---|---|---|---|
